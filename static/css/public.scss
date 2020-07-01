@@ -1,0 +1,275 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li,
+a {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+.content {
+	width: 100%;
+	height: 100%;
+}
+.flex {
+	display: -webkit-flex;
+	display: flex;
+}
+.flex-jc {
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.flex-sb {
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.flex-fw {
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.float {
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-o-justify-content: space-between;
+	justify-content: space-between;
+}
+
+.zhong {
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	-o-align-items: center;
+	align-items: center;
+}
+		.end {
+			-webkit-justify-content: flex-end;
+			-moz-justify-content: flex-end;
+			-o-justify-content:  flex-end;
+			justify-content: flex-end;
+		}
+
+.center {
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	-o-justify-content: center;
+	justify-content: center;
+}
+
+.wrap {
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+input,
+p {
+	margin-bottom: 0;
+	padding: 0;
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button,
+input {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0;
+}
+
+button:after {
+	border: none;
+}
+
+select {
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: 0;
+	background: transparent;
+	outline: none;
+}
+.duanWang{
+	overflow: hidden;
+}
+/* 弹窗 */
+.popup {
+	background: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+
+/* 在线支付弹窗 */
+.popup-pay{
+	width: 100%;
+	height: auto;
+	display: block;
+	position: fixed;
+	z-index: 11;
+	bottom: 0;
+	left: 0;
+	background: #FFFFFF;
+}
+.pay-popup-con{
+	padding: 30rpx;
+	width: calc( 100% - 60rpx );
+	height: auto;
+	overflow: hidden;
+}
+.pay-pop-con01{
+	padding: 20rpx 0 30rpx 0;
+	font-size: 30rpx;
+	font-weight: bold;
+	color: #1A1A1A;
+	width: 100%;
+	text-align: center;
+}
+.pay-pop-ctxt01{
+	width: 100%;
+	font-size: 28rpx;
+	color: #9A9DA3;
+}
+.pay-pop-con02{
+	padding: 30rpx 0;
+	width: 100%;
+	border-bottom: 1px solid #E6E6E6;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.pay-con-way01{
+	display: flex;
+	align-items: center;
+}
+.pay-con-way01 > image{
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	width: 50rpx;
+	height: 50rpx;
+	display: block;
+}
+.pay-con-way01 > text{
+	font-size: 28rpx;
+	color: #333333;
+}
+.pay-con-rad{
+	margin-right: 20rpx;
+	width: 35rpx;
+	height: 35rpx;
+}
+.pay-con-rad > image{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.pay-pop-con03{
+	width: 100%;
+}
+.pay-btn{
+	margin-top: 70rpx;
+	width: 100%;
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+	font-size: 28rpx;
+	color: #fff;
+	background-image: linear-gradient(to right, #07b666 , #22c67b) !important;
+	border-radius: 10rpx;
+}
+.faBack {
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 11;
+}
+/* 取消订单弹窗 */
+.order-popup{
+	position: fixed;
+	width: 520rpx;
+	height: 370rpx;
+	background: #fff;
+	border-radius: 15rpx;
+	left: 50%;
+	top: 50%;
+	margin-top: -185rpx;
+	margin-left: -260rpx;
+	z-index: 11;
+	display: block;
+}
+
+.order-cancel-tit{
+	padding: 40rpx 0;
+	font-size: 30rpx;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	color: #E5252A;
+}
+.order-cancel-txt{
+	padding-top: 30rpx;
+	width: 100%;
+	text-align: center;
+	font-size: 28rpx;
+	color: #0C101C;
+}
+.order-cancel-btn{
+	width: 100%;
+	height: 90rpx;
+	display: flex;
+	border-top: 1rpx solid #eee;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	justify-content: center;
+}
+.order-cancel-btn button{
+	width: 49%;
+	height: 80rpx;
+	line-height: 80rpx;
+	background: #fff !important;
+	border-right: 1rpx solid #eee;
+	font-size: 28rpx;
+	text-align: center;
+	border-radius: 0px;
+}
+.order-cancel-btn button:last-child{
+	border-right: 0px;
+}
+.cancel-pop-btn01{
+	color: #9A9DA3;
+}
+.cancel-pop-btn02{
+	color: #0C101C;
+}
+
+.mag-bottom3{
+	margin-bottom: 30rpx;
+}
+.mag-bottom1{
+	margin-bottom: 10rpx;
+}

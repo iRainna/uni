@@ -1,0 +1,246 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/study/study",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/index/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/index/regsit/regsit",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/index/agree/agree",
+			"style": {
+				"navigationBarTitleText": "用户服务协议"
+			}
+		}, {
+			"path": "pages/index/passWord/passWord",
+			"style": {
+				"navigationBarTitleText": "找回密码"
+			}
+		}, {
+			"path": "pages/index/intention/intention",
+			"style": {
+				"navigationBarTitleText": "请选择你的考试意向"
+			}
+		},{
+            "path" : "pages/my/balance/balance",
+            "style" : {
+				"navigationBarTitleText": "钱包"
+			}
+        }
+        ,{
+            "path" : "pages/my/order/order",
+            "style" : {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom" 
+			}
+        }
+        ,{
+            "path" : "pages/my/remind/remind",
+            "style" : {
+				"navigationBarTitleText": "考试提醒"
+			}
+        }
+        ,{
+            "path" : "pages/my/shopCar/shopCar",
+            "style" : {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom" 
+			}
+        }
+        ,{
+            "path" : "pages/my/help/help",
+            "style" : {
+				"navigationBarTitleText": "帮助中心"
+			}
+        }
+        ,{
+            "path" : "pages/my/promote/promote",
+            "style" : {
+				"navigationBarTitleText": "推广合作"
+			}
+        }
+        ,{
+            "path" : "pages/my/balance_pay/balance_pay",
+            "style" : {
+				"navigationBarTitleText": "充值"
+			}
+        }
+	    ,{
+            "path" : "pages/my/order_info/order_info",
+            "style" : {
+				"navigationBarTitleText": "订单详情"
+			}
+        }
+        ,{
+            "path" : "pages/my/order_pj/order_pj",
+            "style" : {
+				"navigationBarTitleText": "评价"
+			}
+        },{
+            "path" : "pages/home/search/search",
+            "style" : {
+            	"navigationBarTitleText": "",
+            	"navigationStyle": "custom" 
+            }
+        },{
+            "path" : "pages/home/activity/activity",
+            "style" : {
+				"navigationBarTitleText": "活动详情"
+			}
+        }
+        ,{
+            "path" : "pages/home/fireman/fireman",
+            "style" : {
+				"navigationBarTitleText": "初级消防员"
+			}
+        }
+        ,{
+            "path" : "pages/my/help_info/help_info",
+            "style" : {
+				"navigationBarTitleText": "帮助详情"
+			}
+        }
+        ,{
+            "path" : "pages/my/address/address",
+            "style" : {
+				"navigationBarTitleText": "我的地址"
+			}
+        }
+        ,{
+            "path" : "pages/my/address_add/address_add",
+            "style" : {
+				"navigationBarTitleText": "添加地址"
+			}
+        }
+        ,{
+            "path" : "pages/my/set/set",
+            "style" : {
+				"navigationBarTitleText": "设置"
+			}
+        }
+        ,{
+            "path" : "pages/my/set_name/set_name",
+            "style" : {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom" 
+			}
+        }
+        ,{
+            "path" : "pages/study_list/study_list",
+            "style" : {
+				"navigationBarTitleText": "科目列表"
+			}
+        }
+        ,{
+            "path" : "pages/test_paper/test_paper",
+            "style" : {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom" 
+			}
+        }
+        ,{
+            "path" : "pages/section/section",
+            "style" : {
+				"navigationBarTitleText": "章节练习"
+			}
+        }
+        ,{
+            "path" : "pages/zuoTi/zuoTi",
+            "style" : {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom" 
+			}
+        }
+        ,{
+            "path" : "pages/zhishi/zhishi",
+            "style" : {
+				"navigationBarTitleText": "知识点列表"
+			}
+        }
+        ,{
+            "path" : "pages/zhishi_info/zhishi_info",
+            "style" : {
+				"navigationBarTitleText": "知识点详情"
+			}
+        }
+        ,{
+            "path" : "pages/tika/tika",
+            "style" : {
+				"navigationBarTitleText": "题卡"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "国家职业技能",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"color": "#bbbdc7",
+		"selectedColor": "#171917",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/image/home_aa.png",
+				"selectedIconPath": "static/image/home_a.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/test/test",
+				"iconPath": "static/image/home_bb.png",
+				"selectedIconPath": "static/image/home_b.png",
+				"text": "考试"
+			},
+			{
+				"pagePath": "pages/study/study",
+				"iconPath": "static/image/home_cc.png",
+				"selectedIconPath": "static/image/home_c.png",
+				"text": "学习"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/image/home_dd.png",
+				"selectedIconPath": "static/image/home_d.png",
+				"text": "我的"
+			}
+		]
+	}
+
+}
